@@ -13,7 +13,7 @@
             <p>
                 We are determining the minimum number of operations needed in order to take a given interger
                 <br />
-                and transform it into zero using a limited set of operation. For this example we will input (91)
+                and transform it into zero using a limited set of operation. For this example we will input (3)
             </p>
             <asp:Button ID="Problem" runat="server" Text="Problem1611" OnClick="Problem1611_Click" Style="width: 177px" />
             <asp:Label ID="lblResult" runat="server" Text="Solution"></asp:Label>
