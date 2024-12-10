@@ -28,9 +28,9 @@ namespace ReasonableRobins_FinalProject
         {
             Response.Redirect("PoorPigs.aspx");
         }
-        protected void cmdAnswerClick_Click(object sender, EventArgs e)
+        protected void cmdWordCount_Click(object sender, EventArgs e)
         {
-            Response.Redirect("WaterTrap.aspx");
+            Response.Redirect("WordCount.aspx");
         }
     }
 }

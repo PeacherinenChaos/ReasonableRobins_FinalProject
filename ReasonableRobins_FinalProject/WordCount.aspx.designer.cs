@@ -11,7 +11,7 @@ namespace ReasonableRobins_FinalProject
 {
 
 
-    public partial class WaterTrap
+    public partial class WordCount
     {
 
         /// <summary>
@@ -24,21 +24,21 @@ namespace ReasonableRobins_FinalProject
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// cmdAnswerClick control.
+        /// btnProblem control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button cmdAnswerClick;
+        protected global::System.Web.UI.WebControls.Button btnProblem;
 
         /// <summary>
-        /// LblCalculateWater control.
+        /// lblResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblCalculateWater;
+        protected global::System.Web.UI.WebControls.Label lblResult;
     }
 }
