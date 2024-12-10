@@ -67,6 +67,7 @@
     <Content Include="Index.aspx" />
     <Content Include="PoorPigs.aspx" />
     <Content Include="SmallestRangeFinder.aspx" />
+    <Content Include="WaterTrap.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +95,13 @@
     </Compile>
     <Compile Include="SmallestRangeFinder.cs">
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WaterTrap.aspx.cs">
+      <DependentUpon>WaterTrap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WaterTrap.aspx.designer.cs">
+      <DependentUpon>WaterTrap.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

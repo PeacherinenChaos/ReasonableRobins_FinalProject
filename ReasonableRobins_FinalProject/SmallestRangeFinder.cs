@@ -40,7 +40,7 @@ namespace ReasonableRobins_FinalProject
                 else
                 {
                     count += 2;
-                    n >>= 1;
+                    n >>= 2;
                 }
             }
             return count;

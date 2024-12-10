@@ -11,7 +11,7 @@ namespace ReasonableRobins_FinalProject
 {
 
 
-    public partial class Index
+    public partial class WaterTrap
     {
 
         /// <summary>
@@ -24,30 +24,21 @@ namespace ReasonableRobins_FinalProject
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// cmdSmallestRangeFinder control.
+        /// cmdAnswerClick control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button cmdSmallestRangeFinder;
+        protected global::System.Web.UI.WebControls.Button cmdAnswerClick;
 
         /// <summary>
-        /// cmdPoorPigs control.
+        /// LblCalculateWater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button cmdPoorPigs;
-
-        /// <summary>
-        /// cmdWaterTrap control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button cmdWaterTrap;
+        protected global::System.Web.UI.WebControls.Label LblCalculateWater;
     }
 }
