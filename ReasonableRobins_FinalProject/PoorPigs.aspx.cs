@@ -13,7 +13,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
 namespace ReasonableRobins_FinalProject
 {
     public partial class PoorPigs : System.Web.UI.Page
@@ -26,10 +25,8 @@ namespace ReasonableRobins_FinalProject
                 int buckets = Convert.ToInt32(this.buckets.Text);
                 int minutesToDie = Convert.ToInt32(this.minutesToDie.Text);
                 int minutesToTest = Convert.ToInt32(this.minutesToTest.Text);
-
                 // Call the PoorPigs method to calculate the minimum number of pigs
                 int minPigs = PoorPigsSolution.PoorPigs(buckets, minutesToDie, minutesToTest);
-
                 // Display the result
                 lblResult.Text = "Minimum number of pigs needed: " + minPigs;
             }
@@ -39,7 +36,6 @@ namespace ReasonableRobins_FinalProject
                 lblResult.Text = "Error: " + ex.Message;
             }
         }
-
         public class PoorPigsSolution
         {
             public static int PoorPigs(int buckets, int minutesToDie, int minutesToTest)
@@ -52,7 +48,6 @@ namespace ReasonableRobins_FinalProject
                 }
                 return pigs;
             }
-
             public static void Main(string[] args)
             {
                 int buckets = 1000; // Number of buckets

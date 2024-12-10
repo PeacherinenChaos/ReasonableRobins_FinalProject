@@ -9,9 +9,7 @@ Citations: ChatGPT, LeetCode
 Anything else that's relevant:
 -->
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PoorPigs.aspx.cs" Inherits="ReasonableRobins_FinalProject.PoorPigs" %>
-
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
