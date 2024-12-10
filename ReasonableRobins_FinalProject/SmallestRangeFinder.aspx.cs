@@ -20,7 +20,7 @@ namespace ReasonableRobins_FinalProject
                 SmallestRangeFinder solver = new SmallestRangeFinder();
 
                 // put desired input in ()
-                int result = solver.MinOperations(3);
+                int result = solver.MinOperations(6);
 
                 lblResult.Text = $"Solution: {result}";
             }
