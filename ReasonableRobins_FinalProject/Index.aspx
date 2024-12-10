@@ -19,7 +19,7 @@ Anything else that's relevant:
         <div>
             <asp:Button ID="cmdSmallestRangeFinder" runat="server" Text="Problem1611: Smallest Range Finder" OnClick="cmdSmallestRangeFinder_Click" />
             <asp:Button ID="cmdPoorPigs" runat="server" Text="Problem458: Poor Pigs" OnClick="cmdPoorPigs_Click" />
-            <asp:Button ID="cmdWaterTrap" runat="server" Text="Problem42: WaterTrap" OnClick="cmdAnswerClick_Click" />
+            <asp:Button ID="cmdWordCount" runat="server" Text="Problem1255: WordCount" OnClick="cmdWordCount_Click" />
             </div>
     </form>
 </body>

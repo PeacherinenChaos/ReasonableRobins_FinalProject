@@ -28,7 +28,7 @@ Anything else that's relevant:
 <br/> Repeat this process until you run out of time.
 <br/> Given the number of buckets, minutes to die, and minutes to test, it will return the minimum number of pigs needed to figure out which bucket is poisonous within the allotted time.
             </p>
-            <p>Enter the number of buckets, minutes to die, and minutes to test:</p>
+            <p>Enter the number of buckets, minutes to die, and minutes to test. For this problem, I will use 4 buckets, 15 minutes to die, and 15 minutes to test. </p>
             <div>
                 <label for="buckets">Number of Buckets:</label>
                 <asp:TextBox ID="buckets" runat="server"></asp:TextBox>

@@ -67,8 +67,8 @@
     <Content Include="Index.aspx" />
     <Content Include="PoorPigs.aspx" />
     <Content Include="SmallestRangeFinder.aspx" />
-    <Content Include="WaterTrap.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WordCount.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Index.aspx.cs">
@@ -96,12 +96,15 @@
     <Compile Include="SmallestRangeFinder.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WaterTrap.aspx.cs">
-      <DependentUpon>WaterTrap.aspx</DependentUpon>
+    <Compile Include="WordCount.aspx.cs">
+      <DependentUpon>WordCount.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WaterTrap.aspx.designer.cs">
-      <DependentUpon>WaterTrap.aspx</DependentUpon>
+    <Compile Include="WordCount.aspx.designer.cs">
+      <DependentUpon>WordCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WordCount.cs">
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

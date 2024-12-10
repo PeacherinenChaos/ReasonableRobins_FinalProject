@@ -1,4 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SmallestRangeFinder.aspx.cs" Inherits="ReasonableRobins_FinalProject.SmallestRangeFinder" %>
+﻿<!-- Name: Shantele King
+email: King4sl@mail.uc.edu 
+Assignment Title: Final Project
+Due Date: 11/19/2024
+Course: IS 3050
+Semester/Year: Fall 2024
+Brief Description: Solution to problem from Leetcode
+Citations: Gemini ChatGPT
+Anything else that's relevant: N/A
+-->
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SmallestRangeFinder.aspx.cs" Inherits="ReasonableRobins_FinalProject.SmallestRangeFinder" %>
 
 <!DOCTYPE html>
 
